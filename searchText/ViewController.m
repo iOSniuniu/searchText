@@ -21,6 +21,10 @@
     UILabel *lab = [[UILabel alloc] initWithFrame:CGRectMake(0, 200, 50, 30)];
     lab.backgroundColor = [UIColor redColor];
     [self.view addSubview:lab];
+    
+    UILabel *labTwo = [[UILabel alloc] initWithFrame:CGRectMake(100, 150, 100, 30)];
+    labTwo.backgroundColor = [UIColor grayColor];
+    [self.view addSubview:labTwo];
 }
 
 
